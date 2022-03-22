@@ -1,24 +1,23 @@
-# README
+# Rails 7 Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was created with the official Ruby on Rails [video tutorial](https://rubyonrails.org/).
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone this repo:
+  ```
+  git clone git@github.com:yesnik/rails7-demo.git
+  ```
+2. Install dependencies:
+  ```
+  cd rails7-demo
+  bundle install
+  ```
+3. Run setup command:
+  ```
+  rails db:setup
+  ```
+4. Run development server:
+  ```
+  rails server
+  ```
